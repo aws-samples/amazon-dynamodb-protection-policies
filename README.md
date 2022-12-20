@@ -1,11 +1,6 @@
-## My Project
+## Example Protection Policies for Amazon DynamoDB
 
-TODO: Fill this README out!
-
-Be sure to:
-
-* Change the title in this README
-* Edit your repository description on GitHub
+This project contains sample IAM and SCP policies to guard against accidental table deletion.
 
 ## Security
 

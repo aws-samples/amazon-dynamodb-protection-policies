@@ -1,0 +1,12 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "DenyTableDelete",
+            "Effect": "Deny",
+            "Action": "dynamodb:DeleteTable",
+            "Resource": "arn:aws:dynamodb:us-west-2:111122223333:table/*"
+        }
+    ]
+}
+
